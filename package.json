@@ -16,7 +16,7 @@
     "babel": "^5.8.21",
     "babel-runtime": "^5.8.5",
     "browserify": "^11.1.0",
-    "cassis": "co2-git/cassis",
+    "cassis": "0.0.9",
     "react": "^0.13.3",
     "watchify": "^3.4.0"
   },
