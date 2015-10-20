@@ -18,7 +18,7 @@ import Button from 'react.ui/dist/components/button';
 class Component extends React.Component {
   render () {
     return (
-      <Button success big>react.ui successfully installed</Button>
+      <Button success large>react.ui successfully installed</Button>
     );
   }
 }
