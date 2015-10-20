@@ -1,0 +1,23 @@
+{
+  "name": "react.ui",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && node_modules/.bin/babel app --modules common --stage 0 --optional runtime --out-dir dist;",
+    "watch": "rm -rf dist && node_modules/.bin/babel app --watch --modules common --stage 0 --out-dir dist",
+    "postinstall": "npm run build",
+    "browserify": "browserify dist/index.js -o dist/bundle.js",
+    "watchify": "watchify dist/index.js -o dist/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^5.8.21",
+    "babel-runtime": "^5.8.5",
+    "browserify": "^11.1.0",
+    "react": "^0.13.3",
+    "watchify": "^3.4.0"
+  },
+  "devDependencies": {}
+}

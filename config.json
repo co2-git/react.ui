@@ -1,0 +1,11 @@
+{
+  "colors": {
+    "error" : [205, 50, 50],
+    "success" : [83, 163, 83],
+    "warning" : [250, 150, 0],
+    "primary" : [51, 122, 183]
+  },
+  "inputs": {
+    "padding": "0.9em 0.7em"
+  }
+}
